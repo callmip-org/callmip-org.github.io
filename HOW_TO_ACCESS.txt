@@ -1,0 +1,80 @@
+# HOW TO ACCESS YOUR AGMIP WEBSITE
+
+## 📍 WHERE IS IT?
+
+The website files are located in:
+**C:\Users\whitn\agmip-website**
+
+## 🌐 HOW TO VIEW IT LOCALLY (Right Now)
+
+### Option 1: Open in Browser (Easiest)
+1. Open File Explorer
+2. Navigate to: `C:\Users\whitn\agmip-website`
+3. Double-click on `index.html`
+4. It will open in your default web browser!
+
+### Option 2: Use Command Line
+Run this command in PowerShell:
+```powershell
+cd C:\Users\whitn\agmip-website
+Start-Process index.html
+```
+
+### Option 3: Type in Browser Address Bar
+Copy and paste this into your browser:
+```
+file:///C:/Users/whitn/agmip-website/index.html
+```
+
+## 🚀 HOW TO MAKE IT LIVE ONLINE (GitHub Pages)
+
+To make it accessible online for others to see:
+
+1. **Create a GitHub Repository**
+   - Go to github.com
+   - Create a new repository (name it something like "agmip-website")
+
+2. **Upload Files to GitHub**
+   - Copy all files from `C:\Users\whitn\agmip-website` 
+   - Upload them to your GitHub repository
+   - Or use Git commands if you have Git installed
+
+3. **Enable GitHub Pages**
+   - Go to your repository on GitHub
+   - Click "Settings"
+   - Scroll down to "Pages" section
+   - Select your branch (usually `main` or `master`)
+   - Select folder: `/ (root)`
+   - Click "Save"
+
+4. **Your Website Will Be Live At:**
+   ```
+   https://yourusername.github.io/repository-name/
+   ```
+
+## 📁 FILE STRUCTURE
+
+The website consists of:
+- **HTML files** - All the pages (index.html, about.html, etc.)
+- **assets/css/style.css** - All the styling
+- **assets/js/main.js** - Navigation functionality
+- **assets/img/** - Place for your logo (logo.png)
+
+## ✅ QUICK TEST
+
+1. Navigate to: `C:\Users\whitn\agmip-website`
+2. Double-click `index.html`
+3. You should see the AGMIP homepage!
+
+## 📝 NEXT STEPS
+
+After viewing locally:
+1. Add your content to each HTML file
+2. Add your logo as `assets/img/logo.png`
+3. Upload to GitHub to make it live
+4. Share the GitHub Pages URL with others
+
+---
+
+**Questions?** The website is ready to view right now - just open `index.html` in your browser!
+
