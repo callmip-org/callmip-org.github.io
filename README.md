@@ -1,6 +1,6 @@
 # CalLMIP Website
 
-Official website for the Canadian Land Model Intercomparison Project (CalLMIP).
+Official website for the Calibrated Land Model Intercomparison Project (CalLMIP).
 
 ## Structure
 
